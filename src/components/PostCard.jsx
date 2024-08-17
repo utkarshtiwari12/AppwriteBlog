@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function PostCard({$id, title, featuredImage}) {
     return (
         <Link to={`/post/${$id}`}>
-            <div className="w-72 h-56 bg-[#fce8d6] rounded-xl p-4">
+            <div className="w-72 bg-[#fce8d6] rounded-xl p-4">
                 <div className="w-full justify-center mb-4">
                     <img
                         src={service.getFilePreview(featuredImage)}

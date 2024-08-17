@@ -47,7 +47,7 @@ function Header() {
 
                     </Link>
                 </div>
-                <ul className='flex ml-auto justify-center items-center'>
+                <ul className='flex flex-wrap ml-auto justify-center items-center'>
                     {navItems.map((item) => 
                     item.active ? (
                     <li key={item.name}>
